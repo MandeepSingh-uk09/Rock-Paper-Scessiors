@@ -1,0 +1,20 @@
+.comp-move{
+    text-align: center;
+    position: fixed;
+    top: 25%;
+    right: -4%;
+    width: 20%;
+    height: 50%;
+    min-height: 200px;
+    min-width: 120px;
+    border: 3px solid white;
+    border-right: none;
+    border-radius: 40px;
+}
+.computer{
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 5%;    
+    padding-bottom: 5px;
+}

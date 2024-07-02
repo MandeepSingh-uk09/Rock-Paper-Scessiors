@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles/StartupPage.css">
+        <link rel="stylesheet" href="Styles/general.css">
+        <title>Rock-Paper-Scissors</title>
+    </head>
+    <body id="Startup" class="Startup">
+        <p class="Portfolio">Mandeep Singh</p>
+        <p class="heading">ROCK &nbsp; PAPER &nbsp; SCISSORS</p>
+        <div class="Startup-game-box">
+            <div class="Startup-choice">
+                <button class="Startup-button" onclick="gameType('NEW')">
+                    <a href="Rock-Paper-Scesior.html" target="_self">
+                        <img src="Images/New game.png" alt="New Game">
+                    </a>
+                </button>
+                <p class="choice-txt">NEW GAME</p>
+            </div>
+            <div class="Startup-choice">
+                <button class="Startup-button" onclick="gameType('PREVIOUS')">
+                    <a href="Rock-Paper-Scesior.html" target="_self">
+                        <img src="Images/Previous Game.png" alt="Previus Game">
+                    </a>
+                </button>
+                <p class="choice-txt">PREVIOUS GAME</p>
+            </div>            
+            
+
+        </div>
+
+        <script>
+            // S
+            const windowHeight=window.innerHeight;
+            document.getElementById("Startup").style.height=`${windowHeight}px`;
+            function gameType(gameType){
+                localStorage.setItem("game",gameType);
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+.Startup{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, 
+    #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8,
+    #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding-top: 50px;
+    min-height: max-content;    
+}
+
+.Startup-game-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: transparent;
+    position: relative;
+    left: 29%;
+    right: 29%;
+    width: 40%;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.Startup-choice{
+    margin: 50px 30px;
+}
+
+.choice-txt{
+    margin-bottom: 0%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Startup-button{
+    cursor: pointer;
+    background-color: transparent;
+    margin: 2% 0%;
+    padding: 0%;
+    border: 3px solid black;
+    border-radius: 78px;
+}
